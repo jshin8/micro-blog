@@ -3,7 +3,7 @@ console.log("Sanity Check: JS is working!");
 $(document).ready(function() {
     getPost();
     getMeow();
-  
+  	$('.spacecat').hide();
 
 });
 
@@ -25,6 +25,8 @@ function getMeow() {
 	$('.btn-xs').click(function(){
 		event.preventDefault();
 		randomMeow();
+		$(".spacecat").fadeIn(1000);
+		$(".spacecat").fadeOut(1000);
 	});
 }
 //random SpaceCat message generator
