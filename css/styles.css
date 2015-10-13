@@ -10,13 +10,13 @@ body {
   margin-top: 20px;
   font-size: 50px;
   text-align: center;
-  color: white;
+  color: #00688B;
   font-family: 'Audiowide';
   background-color: rgba(0,0,0,0.5);
 }
 
 h2 {
-	color: white;
+	color: #00688B;
 	font-family: 'Audiowide';
 }
 
@@ -24,10 +24,6 @@ h2 {
 	font-family: 'Audiowide';
 }
 
-li {
-	color: white;
-	background-color: rgba(0,0,0,0.5);
-}
 
 #postlist {
 	margin: center;
